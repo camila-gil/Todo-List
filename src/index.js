@@ -10,6 +10,9 @@ export const todoList = new TodoList();
 //     crearTodoHtml(todo)
 // });
 
-todoList.todos.forEach (crearTodoHtml) // Es lo mismo. Solo sirve cuando hay un solo argumento
+todoList.todos.forEach(crearTodoHtml) // Es lo mismo. Solo sirve cuando hay un solo argumento
+
+
+
 
 console.log(`todoList`, todoList.todos)
